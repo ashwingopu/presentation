@@ -1,0 +1,77 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+}
+nav ul{
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   margin: 0 30px
+}
+nav ul li{
+   margin: 0 20px;
+   padding: 30px;
+   height: 40px;
+}
+
+.mask{
+  display: grid;
+  grid-gap:10px;
+  background-color: rgb(107, 92, 236);
+  padding: 20px;
+}
+.types{
+   text-align: center;
+   background-color:plum;
+   padding: 2px;
+   margin-top: 3px;
+}
+.catalog1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background-color: burlywood;
+}
+.image img{
+   width: 600px;
+   height:390px;
+}
+.image{
+   position: relative;
+   display: flex;
+   margin: 30px;
+ 
+}
+.details{
+position: absolute;
+background-color: rgb(100, 199, 125);
+padding: 110px;
+text-align: center;
+margin:35px;
+margin-left: 45%;
+margin-top: 2px;
+}
+.details p{
+font-size: 20px;
+}
+.catalog1 img{
+   width: 300px;
+   height: 300px;
+   border-radius: 50px;
+}
+.block{
+   margin: 20px;  
+}
+.press{
+   text-align: center;
+   background-color:burlywood;
+   padding: 20px;
+}
+.types img{
+   width: 1200px;
+height: 400px;}
+.colour{
+ background-color: plum;
+}
